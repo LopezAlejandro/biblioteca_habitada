@@ -43,7 +43,7 @@ header h1 {
 main {
   padding-top: 20px;
   padding-bottom: 20px;
-  height: 70vh;
+  /* height: 70vh; */
 }
 
 footer {
