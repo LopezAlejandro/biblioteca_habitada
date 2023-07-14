@@ -1,3 +1,7 @@
+@import url('./Alegreya Sans.css');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 :root {
   /* CSS HEX */
   --gold-metallic: #d7ae2c;
@@ -8,12 +12,17 @@
   --fondo: #f5f5f5;
  }
 
+ 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Alegreya Sans","Open Sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+html {
+        height: 100vh
+        }
 
 body {
   font-size: 16px;
@@ -23,20 +32,32 @@ body {
   /* max-width: 1200px; */
   margin: 0 auto;
   /* padding: 0 3em 1.5em; */
+  height: 100%;
 }
 
 header {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   background-color: var(--night);
+  height: 20vh;
 }
-
-header h1 {
+.header-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: center;
+}
+.header-flex-item {
+  margin-left: 2em;
+}
+.header-flex-item h1 {
   color: var(--gold-metallic);
   margin-bottom: 0;
 }
 
-.header-companion {
+.header-flex-item .header-companion {
     color: var(--vanilla);
 }
 
@@ -44,7 +65,7 @@ main {
   padding: 1.5em 2em;
   /* padding-top: 20px;
   padding-bottom: 20px; */
-  /* height: 70vh; */
+  height: 55vh;
 }
 
 .main-flex-container {
@@ -56,15 +77,15 @@ main {
   align-content: flex-start;
 }
 
-
 footer {
   height: auto;
-  width: 100%;
+  /* height: 9vh; */
   /* padding-top: 20px; */
   background-color: var(--gold-metallic);
   color: var(--night);
 }
-.flex-container {
+
+.footer-flex-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -72,17 +93,43 @@ footer {
   align-items: center;
   align-content: center
 }
-.flex-item {
+
+.footer-flex-item {
   flex: 0 0 auto;
   margin: 5px;
 }
 
-.flex-items:nth-child(1) {
+.footer-flex-item:nth-child(1) {
   margin-left: 2rem;
 }
 
-.flex-items:nth-child(2) {
+.footer-flex-item:nth-child(2) {
   margin-right: 1rem;
+}
+
+.paginador-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+.paginador-flex-item {
+  margin-left: 2em;
+}
+
+.paginador-flex-item h2 {
+  font-family: 'Bebas Neue';
+  font-size: 48px;
+  color: var(--gold-metallic);
+}
+
+.paginador-companion {
+
+font-family: 'Bebas Neue';
+  font-size: 48px;
+  color: var(--vanilla);
 }
 
 .bg-nav {
