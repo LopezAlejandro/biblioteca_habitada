@@ -25,14 +25,18 @@ html {
         }
 
 body {
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.5;
   color: var(--night);
   background-color: var(--fondo);
   /* max-width: 1200px; */
   margin: 0 auto;
   /* padding: 0 3em 1.5em; */
-  height: 100%;
+  /* height: 100%; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 header {
@@ -50,7 +54,7 @@ header {
   align-content: center;
 }
 .header-flex-item {
-  margin-left: 2em;
+  margin-left: 2rem;
 }
 .header-flex-item h1 {
   color: var(--gold-metallic);
@@ -62,7 +66,7 @@ header {
 }
 
 main {
-  padding: 1.5em 2em;
+  padding: 1.5rem 2rem;
   /* padding-top: 20px;
   padding-bottom: 20px; */
   height: 55vh;
@@ -72,19 +76,26 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: stretch;
   align-content: flex-start;
 }
 
+.main-flex-item {
+  flex: 0 1 auto;
+  margin: 5px;
+}
+
 footer {
   height: auto;
+  width: 100%;
   /* height: 9vh; */
   /* padding-top: 20px; */
   background-color: var(--gold-metallic);
   color: var(--night);
+  align-self: flex-end;
+  
 }
-
 .footer-flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -114,21 +125,23 @@ footer {
   justify-content: flex-start;
   align-items: flex-end;
   align-content: flex-end;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .paginador-flex-item {
-  margin-left: 2em;
+  margin-left: 2rem;
 }
 
 .paginador-flex-item h2 {
   font-family: 'Bebas Neue';
-  font-size: 48px;
+  font-size: 3rem;
   color: var(--gold-metallic);
 }
 
 .paginador-companion {
 
 font-family: 'Bebas Neue';
-  font-size: 48px;
+  font-size: 3rem;
   color: var(--vanilla);
 }
 
@@ -145,4 +158,68 @@ font-family: 'Bebas Neue';
 .dropdown-item:hover {
   color: var(--cool-gray);
   background-color: var(--vanilla);
+}
+
+p.cuatrocolumns {
+  
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+	-moz-column-count:    4; /* Firefox */
+	column-count:         4;
+  	-webkit-column-gap:   20px; /* Chrome, Safari, Opera */ 
+	-moz-column-gap:      20px; /* Firefox */
+	column-gap:           20px;
+	column-rule-color: #ccc; /* Optional */
+	column-rule-style:solid; /* Optional */
+	column-rule-width: 1px; /* Optional */
+	text-align: justify; /* Optional */
+}
+
+p.trescolumns {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count:    3; /* Firefox */
+	column-count:         3;
+  	-webkit-column-gap:   20px; /* Chrome, Safari, Opera */ 
+	-moz-column-gap:      20px; /* Firefox */
+	column-gap:           20px;
+	column-rule-color: #ccc; /* Optional */
+	column-rule-style:solid; /* Optional */
+	column-rule-width: 1px; /* Optional */
+	text-align: justify; /* Optional */
+}
+
+p.doscolumns {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count:    2; /* Firefox */
+	column-count:         2;
+  	-webkit-column-gap:   20px; /* Chrome, Safari, Opera */ 
+	-moz-column-gap:      20px; /* Firefox */
+	column-gap:           20px;
+	column-rule-color: #ccc; /* Optional */
+	column-rule-style:solid; /* Optional */
+	column-rule-width: 1px; /* Optional */
+	text-align: justify; /* Optional */
+}
+
+/* Pantallas grandes */
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*  Tabletas  */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/*  Celulares  */
+
+@media (max-width: 450px) {
+  html {
+    font-size: 10px;
+  }
 }
