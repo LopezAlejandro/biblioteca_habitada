@@ -79,6 +79,7 @@ main {
   justify-content: space-between;
   align-items: stretch;
   align-content: flex-start;
+  margin-top: 2rem;
 }
 
 .main-flex-item {
