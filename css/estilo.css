@@ -133,6 +133,9 @@ footer {
 
 .paginador-flex-item {
   margin-left: 2rem;
+  align-self: center;
+  /* width: 30%; */
+  flex-grow: 1;
 }
 
 .paginador-flex {
@@ -265,6 +268,12 @@ p.preludio-a {
   html {
     font-size: 16px;
   }
+
+  .paginador-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }  
 }
 
 /*  Tabletas  */
@@ -273,7 +282,20 @@ p.preludio-a {
   html {
     font-size: 12px;
   }
+
+  .paginador-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: flex-start;
+  }
+
+  .paginador-flex-item:nth-child(3){
+    display: none;
+  }
 }
+
 
 /*  Celulares  */
 
@@ -281,4 +303,18 @@ p.preludio-a {
   html {
     font-size: 10px;
   }
+
+  .paginador-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: flex-start;
+
+  }
+
+  .paginador-flex-item:nth-child(3){
+    display: none;
+  }
+
 }

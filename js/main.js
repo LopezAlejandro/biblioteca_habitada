@@ -163,16 +163,130 @@ La estructura del proyecto <strong>La Biblioteca habitada</strong> se impuso tri
         </div>`;
             break;
         case 4:
+            text = `<div class="main-flex-container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <div class="two-columns">
+                    <p class="preludio">
+            <strong>LOS ESPACIOS</strong><br>
+            <br>
+            El trabajo de investigación que llevamos adelante propuso reconstruir una breve historia contada y
+            documental de los espacios físicos que nuestra biblioteca desde sus orígenes habitó en sucesivas
+            construcciones, escalas y localizaciones.<br><br>La reconstrucción digital y el estudio de esta historia llevada
+            adelante por los integrantes del equipo Curatorial, Jorge Gazaneo y Atilio Pentimalli, nos muestran y nos
+            cuentan los diferentes ámbitos: desde la Biblioteca en la histórica Manzana de las Luces de la calle Perú en
+            la entonces Escuela de Arquitectura de la Facultad de Ciencias Exactas, Físicas y Naturales, pasando a la
+            Biblioteca proyectada pero nunca habitada en los pabellones adyacentes a la Facultad de Derecho sobre la
+            avenida Figueroa Alcorta —un hallazgo de esta investigación—. Pabellones parabólicos de madera que luego de
+            un incendio determinó la mudanza de nuestra Biblioteca a la Ciudad Universitaria en Nuñez, desde Perú.
+            Provisoriamente en 1966 al segundo piso del edificio de la Facultad de Ciencias Exactas y Naturales y
+            finalmente en 1971 en el pabellón III sede definitiva de la FAU (Facultad de Arquitectura y Urbanismo),
+            luego FADU.<br>
+            Contamos aquí otro momento fundacional (1992) como fue el pasaje en el decanato de Juan Manuel Borthagaray
+            de Biblioteca a cátedra de Documentación o Centro de Documentación-Biblioteca en su nueva localización ya en
+            el 2017 en la planta baja del edificio de la FADU.<br>
+            Como parte de esta breve historia de los diferentes espacios que la biblioteca habita y habitó, rescatamos
+            la historia del logo, símbolo del espacio institucional, historia que Alicia Ferrari (Directora técnica
+            entre los años 1994-2017) cuenta en un documento que rescatamos del año 2013.<br>
+            <br>
+            <strong>LOS LIBROS</strong><br>
+            <br>
+            Alrededor de la persona que escribe libros debe haber una separación de los demás, una soledad. Los libros y
+            la lectura desde su concepción, nos proponen una separación del mundo que nos rodea. El acto de lectura
+            intrínsecamente es solitario, como quien escribe un libro. Hay a veces, una comunión entre el libro —su
+            autor— y el que lo lee —el lector—. Esa comunión si acontece es una epifanía… La aparición de algo otro que
+            es lo impensado que todo buen libro nos aporta como polvo de oro. Esa comunión es un modo de habitar, un
+            modo en que el libro definitivamente nos habite, y si es un libro esencial, cambia nuestra cosmovisión; la
+            visión del mundo que nos rodea y que habitamos.<br>
+            Certeramente Marguerite Duras dice “Un libro abierto también es la noche”. Y a los buenos libros como la
+            noche, los habitamos en sueños…<br>
+            Sueños que despiertan en nosotros imaginarios, mundos impensados.<br>
+            Ese es el verdadero valor de un libro.<br>
+            El capítulo condensa la historia de nuestra colección de la mano de Verónica Galloni, curadora de los libros
+            antiguos de la FADU junto a los textos ya mencionados de Enrique Longinotti y Horacio Caride Batrons.
+            </p>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>`;
             break;
         case 5:
+            text = `<div class="main-flex-container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <div class="two-columns">
+                        <p class= "preludio">
+                        <strong>LOS PROTAGONISTAS</strong><br>
+                        <br>No es posible habitar —como verbo encarnado— sin habitantes. Protagonistas que condensan temporalmente ese habitar.<br>
+Estamos transitados por el tiempo, somos seres temporales y latimos al son de él. Somos mortales, como diría Heidegger y no hay biblioteca sin aquellos que la han habitado y dado un sentido a sus espacios, sus libros, su colección.<br>
+Cada Director, Directora que han pasado por aquí, dejaron una huella.<br> 
+Imposible otra vez, contar una historia total.  Han sido muchos los protagonistas de estos años. Desde la directora Arq. Filandia Elisa Pizzul (1948 a 1949) que sucedió a una breve gestión de tres meses de Rodolfo Curdy, primer director, fue como dicen Inés Moisset y Zaida Muxí en el artículo que escriben “la encargada de organizar la biblioteca propia de la facultad, ya que antes era parte de la Facultad de Ciencias Exactas, Física y Naturales. En ese entonces nuestra biblioteca contaba con 3500 ejemplares. Antes Filandia había sido la Bibliotecaria de la Sociedad Central de Arquitectos.”<br>  
+Manuel Ignacio Net fue el Director-organizador del centro de Documentación Biblioteca (1992-2016) durante la gestión del decano Juan Manuel Borthagaray. Net fue uno de los protagonistas y nuestro centro de documentación lleva su nombre en su memoria desde el 2017. Rescatamos de la mano de Verónica Galloni y Victoria Weinsztok —quiénes trabajaron codo a codo junto a Manuel— su testimonio: 
+<blockquote class="blockquote"><p class="preludio">
+“Desde 1992 junto con la creación del Centro de Documentación Biblioteca, el arquitecto Manuel Ignacio Net fue designado Director General de la Biblioteca donde trabajó comprometidamente durante 25 años. 
+<br>
+Cuando llegaba a su oficina de director, lo hacía con su cuaderno tapa dura bajo el brazo… se lo veía escribir y dibujar… las palabras ocupaban de un extremo al otro de la hoja,  dibujaba lo que veía, o lo que se le ocurría, entre un diario personal y un diario de viajes, las hojas  de esos cuadernos se llenaban enteramente, ya que no había vacíos en su mundo interior.”  
+</p></blockquote>
+<p class="preludio">
+Finalmente no queríamos dejar de contar con el testimonio de Alicia Ferrari, Bibliotecaria y Directora Técnica del Centro de Documentación-Biblioteca entre 1994 y 2018. Alicia nos antecedió en la actual gestión. En lo personal, haberla tratado y conocido fue un enorme placer. Ella nos dio su valioso testimonio escrito, nos ayudó en la búsqueda durante el proceso de materiales que intuíamos de su existencia, pero que resultaban difíciles de rastrear y acceder, y sobre todo Alicia ha sido un puente muy valioso, entre dos gestiones, la que ella concluyó, la que iniciamos en el 2018 con el decanato de Guillermo Cabrera y el vicedecano Carlos Venancio.<br> 
+En ese momento escribí un texto como un breve apunte de la gestión que iniciaba. Lo titulé Memoria y Proyecto, transcribo aquí algunos párrafos:</p> 
+<blockquote class="blockquote"><p class="preludio">
+“…Recordé a Foucault en un texto —Del Lenguaje al Infinito— en donde cita a la Biblioteca de Babel...<br>  
+Parafraseando a Borges, Foucault entiende a la Biblioteca como Infinito. Frente a las figuras retóricas de la tradición clásica, la Biblioteca es por obra del azar, lo ilegible, lo imposible, imagen del infinito y en última instancia, y esto es lo más interesante del escrito, <strong>la forma que mejor define a la Verdad en nuestra contemporaneidad…</strong>” </p></blockquote>
+<p class="preludio">
+La Biblioteca contiene un número finito de textos y por tanto un número finito de caracteres, pero por gracia de la creación —que es parte también de la gestión— sus posibilidades de combinación e interpretación son infinitas.<br>
+De ahí que el texto de Borges comienza así:  
+</p><blockquote class="blockquote">
+<p class="preludio">
+ “El Universo que otros llaman Biblioteca”…, “se compone de un número indefinido, y tal vez infinito, de galerías hexagonales…” 
+</p></blockquote>
+ <br>
+<p class="preludio">
+La Biblioteca es una imagen de estas posibilidades infinitas de articulación entre Memoria y Proyecto, que piensa Foucault a través de Borges… </p>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>`;
             break;
         case 6:
+            text = `<div class="main-flex-container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <div class="two-columns">
+                        <p class="preludio">
+                        Siempre viví rodeado de libros —muchos heredados, otros comprados— y luego de casi seis décadas de convivir con una biblioteca que fue creciendo, me toca la misión de dirigir la de la FADU.<br>  
+Pensando desde mi experiencia académica, hay algo central:<br><br> 
+¿Cómo articular <strong>MEMORIA y PROYECTO?</strong><br><br> 
+Esta pregunta ensaya algunas respuestas en los dos proyectos que ya llevamos adelante desde la gestión desde el 2018: <strong>Josef Albers, La Interacción del color</strong> —la historia de un libro paradigmático de nuestra colección, y este último que presentamos hoy como celebración e inicio de una nueva gestión, como articulación con la comunidad académica que somos, entre profesores, graduados, docentes, no docentes y estudiantes que habitamos nuestra querida FADU y que nos merecemos conocer un poquito más, de que va la historia de nuestra <strong>Biblioteca habitada.</strong> 
+</p>
+</div><p style="text-align: right;color: #212529;">Prof. Arq. Alejandro Vaca Bononato<br>Director del Centro de Documentación-Biblioteca FADU UBA Prof. Manuel Ignacio Net</p> 
+                        
+                    
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>`;
             break;
-    
+
         default:
+            text = `<div class="main-flex-container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <div class="two-columns">
+                    
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>`;
             break;
     }
 
     node.innerHTML = text;
- 
 }
