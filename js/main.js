@@ -1,6 +1,8 @@
 function escribir(pagina) {
     node = document.getElementById("main");
     node.innerHTML = "";
+    node2 = document.getElementById("pagina-p");
+    node2.innerHTML = "";
     switch (pagina) {
         case 1:
             text = `<div class="main-flex-container">
@@ -77,6 +79,14 @@ function escribir(pagina) {
           <div class="col-2"></div>
         </div>
       </div>`;
+            text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group btn-group-sm" role="group" aria-label="First group">
+          <button type="button" class="btn btn-outline-secondary disabled" onclick="escribir(1)">Primero</button>
+          <button type="button" class="btn btn-outline-secondary disabled" onclick="escribir(1)">Anterior</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(2)">Siguiente</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(6)">Último</button>
+        </div>
+      </div>`;
             break;
         case 2:
             text = `<div class="main-flex-container">
@@ -139,6 +149,14 @@ function escribir(pagina) {
                 <div class="col-2"></div>
             </div>
         </div>`;
+            text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group btn-group-sm" role="group" aria-label="First group">
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Anterior</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(3)">Siguiente</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(6)">Último</button>
+        </div>
+      </div>`;
             break;
         case 3:
             text = ` <div class="main-flex-container">
@@ -161,6 +179,14 @@ La estructura del proyecto <strong>La Biblioteca habitada</strong> se impuso tri
                 <div class="col-2"></div>
             </div>
         </div>`;
+            text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group btn-group-sm" role="group" aria-label="First group">
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(2)">Anterior</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(4)">Siguiente</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(6)">Último</button>
+        </div>
+      </div>`;
             break;
         case 4:
             text = `<div class="main-flex-container">
@@ -211,6 +237,14 @@ La estructura del proyecto <strong>La Biblioteca habitada</strong> se impuso tri
                 <div class="col-2"></div>
             </div>
         </div>`;
+            text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group btn-group-sm" role="group" aria-label="First group">
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(3)">Anterior</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(5)">Siguiente</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(6)">Último</button>
+        </div>
+      </div>`;
             break;
         case 5:
             text = `<div class="main-flex-container">
@@ -251,6 +285,14 @@ La Biblioteca es una imagen de estas posibilidades infinitas de articulación en
                 <div class="col-2"></div>
             </div>
         </div>`;
+            text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group btn-group-sm" role="group" aria-label="First group">
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(4)">Anterior</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(6)">Siguiente</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(6)">Último</button>
+        </div>
+      </div>`;
             break;
         case 6:
             text = `<div class="main-flex-container">
@@ -271,6 +313,14 @@ Esta pregunta ensaya algunas respuestas en los dos proyectos que ya llevamos ade
                 <div class="col-2"></div>
             </div>
         </div>`;
+            text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group btn-group-sm" role="group" aria-label="First group">
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(5)">Anterior</button>
+          <button type="button" class="btn btn-outline-secondary disabled" onclick="escribir(2)">Siguiente</button>
+          <button type="button" class="btn btn-outline-secondary disabled" onclick="escribir(6)">Último</button>
+        </div>
+      </div>`;
             break;
 
         default:
@@ -285,8 +335,18 @@ Esta pregunta ensaya algunas respuestas en los dos proyectos que ya llevamos ade
                 <div class="col-2"></div>
             </div>
         </div>`;
+            text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group btn-group-sm" role="group" aria-label="First group">
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
+          <button type="button" class="btn btn-outline-secondary disabled" onclick="escribir(1)">Anterior</button>
+          <button type="button" class="btn btn-outline-secondary disabled" onclick="escribir(2)">Siguiente</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="escribir(6)">Último</button>
+        </div>
+      </div>`;
             break;
     }
 
     node.innerHTML = text;
+    node2.innerHTML = text2;
+    return
 }
