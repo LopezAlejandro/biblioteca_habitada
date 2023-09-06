@@ -1,47 +1,57 @@
 function escribir(pagina) {
-    node = document.getElementById("main");
-    node.innerHTML = "";
-    node2 = document.getElementById("pagina-p");
-    node2.innerHTML = "";
-    switch (pagina) {
-      case 1:
-        text = `<div class="main-flex-container">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8">
+  node = document.getElementById("main");
+  node.innerHTML = "";
+  node2 = document.getElementById("pagina-p");
+  node2.innerHTML = "";
+  switch (pagina) {
+    case 1:
+      text = `<div>
+      <div class="main-grid-container">
+        <div class="grid-item1">
 
-            <figure class="text-end">
-              <blockquote class="blockquote">
-                <p class="preludio">“El secreto de todo buen bibliotecario consiste en no leer
-                  los libros que tiene a su cargo, exceptuando el título y el
-                  índice. ¡El que mete las narices en un libro está perdido!...
-                  Nunca llegará a tener la perspectiva del conjunto.“</p>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                Robert Musil, <cite title="Source Title">Der Mann ohne
-                  Eigenschaften, Berlin, 1930.</cite>
-              </figcaption>
-            </figure>
-
-            <figure class="text-end">
-              <blockquote class="blockquote">
-                <p class="preludio">“El hombre se comporta como si él fuera el señor y el
-                  forjador del lenguaje, cuando en realidad es éste el que es y
-                  ha sido siempre el señor del hombre. La inversión de esta
-                  relación llevada a cabo por el hombre en la era moderna, de
-                  esta relación de dominio, es lo que empuja a la esencia de
-                  aquel a lo no hogareño, a no habitar…”</p>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                Martín Heidegger, <cite title="Source Title">Construir, habitar,
-                  pensar. Darmstadt, 1951.</cite>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-2"></div>
         </div>
-      </div>`;
-        text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="grid-item2">
+          <figure class="text-end">
+            <blockquote class="blockquote">
+              <p class="preludio">
+                “El secreto de todo buen bibliotecario consiste en no leer los
+                libros que tiene a su cargo, exceptuando el título y el
+                índice. ¡El que mete las narices en un libro está perdido!...
+                Nunca llegará a tener la perspectiva del conjunto.“
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Robert Musil,
+              <cite title="Source Title">Der Mann ohne Eigenschaften, Berlin,
+                1930.</cite>
+            </figcaption>
+          </figure>
+
+          <figure class="text-end">
+            <blockquote class="blockquote">
+              <p class="preludio">
+                “El hombre se comporta como si él fuera el señor y el forjador
+                del lenguaje, cuando en realidad es éste el que es y ha sido
+                siempre el señor del hombre. La inversión de esta relación
+                llevada a cabo por el hombre en la era moderna, de esta
+                relación de dominio, es lo que empuja a la esencia de aquel a
+                lo no hogareño, a no habitar…”
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Martín Heidegger,
+              <cite title="Source Title">Construir, habitar, pensar.
+                Darmstadt, 1951.</cite>
+            </figcaption>
+          </figure>
+
+        </div>
+        <div class="grid-item3">
+
+        </div>
+      </div>
+    </div>`;
+      text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group btn-group-sm" role="group" aria-label="First group">
           <button type="button" class="btn btn-outline-secondary disabled" onclick="escribir(1)">Primero</button>
           <button type="button" class="btn btn-outline-secondary disabled" onclick="escribir(1)">Anterior</button>
@@ -49,12 +59,14 @@ function escribir(pagina) {
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(7)">Último</button>
         </div>
       </div>`;
-        break;
-      case 2:
-        text = `<div class="main-flex-container">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8">
+      break;
+    case 2:
+      text = `<div>
+      <div class="main-grid-container">
+        <div class="grid-item1">
+
+        </div>
+        <div class="grid-item2">
             <div class="two-columns">
               <p class="preludio">
                 <strong>La Biblioteca habitada</strong> es el nombre del
@@ -92,10 +104,12 @@ function escribir(pagina) {
               </p>
             </div>
           </div>
-          <div class="col-2"></div>
+          <div class="grid-item3">
+
         </div>
-      </div>`;
-        text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+      </div>
+    </div>`;
+      text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group btn-group-sm" role="group" aria-label="First group">
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Anterior</button>
@@ -103,13 +117,14 @@ function escribir(pagina) {
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(7)">Último</button>
         </div>
       </div>`;
-        break;
-      case 3:
-        text = `<div class="main-flex-container">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
+      break;
+    case 3:
+      text = `<div>
+      <div class="main-grid-container">
+        <div class="grid-item1">
 
+        </div>
+        <div class="grid-item2">
                     <div class="two-columns">
                         <p class="preludio">
                             Volver a transitar los libros antiguos que forman parte de nuestro acervo “como una
@@ -161,11 +176,14 @@ function escribir(pagina) {
 
                         </p>
                     </div>
+
                 </div>
-                <div class="col-2"></div>
-            </div>
-        </div>`;
-        text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="grid-item3">
+
+        </div>
+      </div>
+    </div>`;
+      text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group btn-group-sm" role="group" aria-label="First group">
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(2)">Anterior</button>
@@ -173,12 +191,14 @@ function escribir(pagina) {
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(7)">Último</button>
         </div>
       </div>`;
-        break;
-      case 4:
-        text = ` <div class="main-flex-container">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
+      break;
+    case 4:
+      text = `<div>
+      <div class="main-grid-container">
+        <div class="grid-item1">
+
+        </div>
+        <div class="grid-item2">
 
                     <div class="two-columns">
                         <p class="preludio">
@@ -192,10 +212,12 @@ La estructura del proyecto <strong>La Biblioteca habitada</strong> se impuso tri
                         </p>
                     </div>
                 </div>
-                <div class="col-2"></div>
-            </div>
-        </div>`;
-        text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="grid-item3">
+
+        </div>
+      </div>
+    </div>`;
+      text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group btn-group-sm" role="group" aria-label="First group">
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(3)">Anterior</button>
@@ -203,12 +225,14 @@ La estructura del proyecto <strong>La Biblioteca habitada</strong> se impuso tri
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(7)">Último</button>
         </div>
       </div>`;
-        break;
-      case 5:
-        text = `<div class="main-flex-container">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
+      break;
+    case 5:
+      text = `<div>
+      <div class="main-grid-container">
+        <div class="grid-item1">
+
+        </div>
+        <div class="grid-item2">
                     <div class="two-columns">
                     <p class="preludio">
             <strong>LOS ESPACIOS</strong><br>
@@ -250,10 +274,12 @@ La estructura del proyecto <strong>La Biblioteca habitada</strong> se impuso tri
             </p>
                     </div>
                 </div>
-                <div class="col-2"></div>
-            </div>
-        </div>`;
-        text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="grid-item3">
+
+        </div>
+      </div>
+    </div>`;
+      text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group btn-group-sm" role="group" aria-label="First group">
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(4)">Anterior</button>
@@ -261,12 +287,14 @@ La estructura del proyecto <strong>La Biblioteca habitada</strong> se impuso tri
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(7)">Último</button>
         </div>
       </div>`;
-        break;
-      case 6:
-        text = `<div class="main-flex-container">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
+      break;
+    case 6:
+      text = `<div>
+      <div class="main-grid-container">
+        <div class="grid-item1">
+
+        </div>
+        <div class="grid-item2">
                     <div class="two-columns">
                         <p class= "preludio">
                         <strong>LOS PROTAGONISTAS</strong><br>
@@ -298,10 +326,12 @@ De ahí que el texto de Borges comienza así:
 La Biblioteca es una imagen de estas posibilidades infinitas de articulación entre Memoria y Proyecto, que piensa Foucault a través de Borges… </p>
                     </div>
                 </div>
-                <div class="col-2"></div>
-            </div>
-        </div>`;
-        text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="grid-item3">
+
+        </div>
+      </div>
+    </div>`;
+      text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group btn-group-sm" role="group" aria-label="First group">
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(5)">Anterior</button>
@@ -309,12 +339,14 @@ La Biblioteca es una imagen de estas posibilidades infinitas de articulación en
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(7)">Último</button>
         </div>
       </div>`;
-        break;
-      case 7:
-        text = `<div class="main-flex-container">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
+      break;
+    case 7:
+      text = `<div>
+      <div class="main-grid-container">
+        <div class="grid-item1">
+
+        </div>
+        <div class="grid-item2">
                     <div class="two-columns">
                         <p class="preludio">
                         Siempre viví rodeado de libros —muchos heredados, otros comprados— y luego de casi seis décadas de convivir con una biblioteca que fue creciendo, me toca la misión de dirigir la de la FADU.<br>  
@@ -326,10 +358,12 @@ Esta pregunta ensaya algunas respuestas en los dos proyectos que ya llevamos ade
                         
                     
                 </div>
-                <div class="col-2"></div>
-            </div>
-        </div>`;
-        text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="grid-item3">
+
+        </div>
+      </div>
+    </div>`;
+      text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group btn-group-sm" role="group" aria-label="First group">
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(6)">Anterior</button>
@@ -337,21 +371,19 @@ Esta pregunta ensaya algunas respuestas en los dos proyectos que ya llevamos ade
           <button type="button" class="btn btn-outline-secondary disabled" onclick="escribir(7)">Último</button>
         </div>
       </div>`;
-        break;
+      break;
 
-      default:
-        text = `<div class="main-flex-container">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    <div class="two-columns">
-                    
-                    </div>
-                </div>
-                <div class="col-2"></div>
-            </div>
-        </div>`;
-        text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
+    default:
+      text = `<div>
+      <div class="main-grid-container">
+        <div class="grid-item1"></div>
+        <div class="grid-item2">
+          <div class="two-columns"></div>
+        </div>
+        <div class="grid-item3"></div>
+      </div>
+    </div>`;
+      text2 = `<div class="btn-toolbar justify-content-start" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group btn-group-sm" role="group" aria-label="First group">
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(1)">Primero</button>
           <button type="button" class="btn btn-outline-secondary disabled" onclick="escribir(1)">Anterior</button>
@@ -359,10 +391,10 @@ Esta pregunta ensaya algunas respuestas en los dos proyectos que ya llevamos ade
           <button type="button" class="btn btn-outline-secondary" onclick="escribir(6)">Último</button>
         </div>
       </div>`;
-        break;
-    }
+      break;
+  }
 
-    node.innerHTML = text;
-    node2.innerHTML = text2;
-    return
+  node.innerHTML = text;
+  node2.innerHTML = text2;
+  return
 }

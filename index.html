@@ -7,7 +7,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous" />
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/estilo.css" />
     <title>La biblioteca habitada - Los espacios</title>
   </head>
@@ -27,16 +28,21 @@
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation">
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="http://biblioteca.fadu.uba.ar">Inicio</a>
+              <a class="nav-link" href="http://biblioteca.fadu.uba.ar"
+                >Inicio</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Preludio</a>
+              <a class="nav-link active" aria-current="page" href="#"
+                >Preludio</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./el_libro.html">El Libro</a>
@@ -49,10 +55,10 @@
       </div>
     </nav>
     <main id="main">
-      <div class="main-flex-container">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8">
+      <div>
+        <div class="main-grid-container">
+          <div class="grid-item1"></div>
+          <div class="grid-item2">
             <figure class="text-end">
               <blockquote class="blockquote">
                 <p class="preludio">
@@ -64,8 +70,9 @@
               </blockquote>
               <figcaption class="blockquote-footer">
                 Robert Musil,
-                <cite title="Source Title">Der Mann ohne Eigenschaften, Berlin,
-                  1930.</cite>
+                <cite title="Source Title"
+                  >Der Mann ohne Eigenschaften, Berlin, 1930.</cite
+                >
               </figcaption>
             </figure>
 
@@ -82,12 +89,13 @@
               </blockquote>
               <figcaption class="blockquote-footer">
                 Martín Heidegger,
-                <cite title="Source Title">Construir, habitar, pensar.
-                  Darmstadt, 1951.</cite>
+                <cite title="Source Title"
+                  >Construir, habitar, pensar. Darmstadt, 1951.</cite
+                >
               </figcaption>
             </figure>
           </div>
-          <div class="col-2"></div>
+          <div class="grid-item3"></div>
         </div>
       </div>
     </main>
@@ -100,33 +108,39 @@
         <div
           class="btn-toolbar justify-content-start"
           role="toolbar"
-          aria-label="Toolbar with button groups">
+          aria-label="Toolbar with button groups"
+        >
           <div
             class="btn-group btn-group-sm"
             role="group"
-            aria-label="First group">
+            aria-label="First group"
+          >
             <button
               type="button"
               class="btn btn-outline-secondary disabled"
-              onclick="escribir(1)">
+              onclick="escribir(1)"
+            >
               Primero
             </button>
             <button
               type="button"
               class="btn btn-outline-secondary disabled"
-              onclick="escribir(1)">
+              onclick="escribir(1)"
+            >
               Anterior
             </button>
             <button
               type="button"
               class="btn btn-outline-secondary"
-              onclick="escribir(2)">
+              onclick="escribir(2)"
+            >
               Siguiente
             </button>
             <button
               type="button"
               class="btn btn-outline-secondary"
-              onclick="escribir(6)">
+              onclick="escribir(6)"
+            >
               Último
             </button>
           </div>
@@ -136,15 +150,18 @@
     </section>
     <footer class="footer-flex-container">
       <div class="footer-flex-item">
-        Centro de Documentación<br /><strong>Biblioteca&nbsp;&nbsp;&nbsp;&nbsp;</strong>FADU&nbsp;&nbsp;-&nbsp;&nbsp;UBA
+        Centro de Documentación<br /><strong
+          >Biblioteca&nbsp;&nbsp;&nbsp;&nbsp;</strong
+        >FADU&nbsp;&nbsp;-&nbsp;&nbsp;UBA
       </div>
       <div class="footer-flex-item">
         <p>
           <a href="http://jigsaw.w3.org/css-validator/check/referer">
             <img
-              style="border: 0; width: 88px; height: 31px"
+              style="border: 0; width: 71px; height: 25px"
               src="http://jigsaw.w3.org/css-validator/images/vcss"
-              alt="¡CSS Válido!" />
+              alt="¡CSS Válido!"
+            />
           </a>
         </p>
       </div>
@@ -153,7 +170,8 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
