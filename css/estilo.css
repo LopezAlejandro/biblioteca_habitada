@@ -65,6 +65,10 @@ header {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 1.5rem 2rem;
   /* padding-top: 20px;
   padding-bottom: 20px; */
@@ -72,15 +76,15 @@ main {
   flex-grow: 1;
   }
 
-.main-flex-container {
+/* .main-flex-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
   align-content: stretch;
   margin-top: 2rem;
-}
+} */
 
 /* .main-flex-item {
   flex: 1 0 auto;
@@ -88,9 +92,9 @@ main {
 }
  */
 
- .main-flex-item {
+ /* .main-flex-item {
  align-self: center;
- }
+ } */
 
 .main-grid-container {
 display: grid;
@@ -269,7 +273,6 @@ p.creditos {
   line-height: 1.333333334;
   margin-bottom: 2rem;
   text-align: justify;
-  color: white;
 }
 
 p.preludio {
